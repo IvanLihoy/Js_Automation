@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="login_to_slack_app_and_entering_the_chat" timestamp="2017-09-13T14:01:43" time="21.181" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="7954ec9b6e2c74356e2d958fda6089f2"/>
+      <property name="suiteName" value="login to Slack app and entering the chat"/>
+      <property name="capabilities" value=""/>
+      <property name="file" value=".\test\specs\chat.spec.js"/>
+    </properties>
+    <testcase classname=".login_to_slack_app_and_entering_the_chat" name="should_open_app" time="3.404">
+      <system-out>
+        <![CDATA[
+RESULT: undefined
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname=".login_to_slack_app_and_entering_the_chat" name="should_login_from_2_accounts" time="16.806">
+      <system-out>
+        <![CDATA[
+RESULT: undefined
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname=".login_to_slack_app_and_entering_the_chat" name="should_enter_a_chat" time="0.946"/>
+  </testsuite>
+  <testsuite name="chat_application" timestamp="2017-09-13T14:02:04" time="53.828" tests="6" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="7954ec9b6e2c74356e2d958fda6089f2"/>
+      <property name="suiteName" value="chat application"/>
+      <property name="capabilities" value=""/>
+      <property name="file" value=".\test\specs\chat.spec.js"/>
+    </properties>
+    <testcase classname=".chat_application" name="browser_a_user_should_send_a_message_to_browser_b_user" time="6.212">
+      <system-out>
+        <![CDATA[
+RESULT: undefined
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname=".chat_application" name="browser_b_user_should_respond_to_a_message_from_browser_a_user" time="6.418">
+      <system-out>
+        <![CDATA[
+RESULT: undefined
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname=".chat_application" name="browser_b_user_should_delete_his_message" time="1.489"/>
+    <testcase classname=".chat_application" name="browser_a_user_should_call_browser_b_user" time="6.389"/>
+    <testcase classname=".chat_application" name="browser_b_user_should_accept_the_call_from_browser_a_user" time="29.25">
+      <system-out>
+        <![CDATA[
+RESULT: undefined
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname=".chat_application" name="browser_a_user_should_hang_up" time="2.521">
+      <system-out>
+        <![CDATA[
+RESULT: undefined
+RESULT: undefined
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
